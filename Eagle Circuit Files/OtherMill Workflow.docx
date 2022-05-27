@@ -3,25 +3,26 @@ Joshua Wong - 5/5/2022
 Eagle Sphericon Circuit Design
 	This should be the “motor_tester.brd” file. The circuit itself is the Arduino Nano 33 BLE, the Pololu MDB09X Motor controller, and the holes for a capacitor, motor outputs, and Voltage/Ground inputs. 
 	A few notes
--	The traces are wide because of the Trace Net properties
-o	This is done BEFORE autorouting
--	The traces are on the back of the “PCB” because the othermill only has one conductive side 
+	- The traces are wide because of the Trace Net properties
+		o This is done BEFORE autorouting
+	- The traces are on the back of the “PCB” because the othermill only has one conductive side 
+	
 Othermill Notes
-•	Use a slower tool speed, look into “Tool Library” I was having success with Test #3 so mimic that I guess
-•	If there are red spots, go fix them in eagle
-•	Use the loading  button to have easier access to bed
-•	PUT YOUR TRACES ON THE BACK/BOTTOM LAYER
+	• Use a slower tool speed, look into “Tool Library” I was having success with Test #3 so mimic that I guess
+	• If there are red spots, go fix them in eagle
+	• Use the loading  button to have easier access to bed
+	• PUT YOUR TRACES ON THE BACK/BOTTOM LAYER
 
 Instructions 
-1.	Load schematic into the Bantum Software and select the tool
-a.	Remember that your traces are on the back, so it won’t show until you select the bottom side
-2.	Press the “Start milling” button
-a.	This will prompt you to change the tool and zero it in
-3.	Once the tool is zeroed, cancel the job
-4.	Apply double sided tape to the back of your material
-5.	Place it down in the bed
-a.	Press down firmly to ensure a good fit
-6.	Verify that you are milling the bottom/back of the circuit
-a.	The traces should be visible
-7.	Start the process
-8.	Once it finished, vacuum the dust and take your new circuit board
+	1. Load schematic into the Bantum Software and select the tool
+		a. Remember that your traces are on the back, so it won’t show until you select the bottom side
+	2. Press the “Start milling” button
+		a. This will prompt you to change the tool and zero it in
+	3. Once the tool is zeroed, cancel the job
+	4. Apply double sided tape to the back of your material
+	5. Place it down in the bed
+		a. Press down firmly to ensure a good fit
+	6. Verify that you are milling the bottom/back of the circuit
+		a. The traces should be visible
+	7. Start the process
+	8. Once it finished, vacuum the dust and take your new circuit board
